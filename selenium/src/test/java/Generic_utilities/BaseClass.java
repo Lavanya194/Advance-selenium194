@@ -34,12 +34,13 @@ public class BaseClass {
 	{
 		System.out.println("Parallel Execution");
 	}
+	//pullone
 	//@Parameters("BROWSER")
 	@BeforeClass(groups={"smokeTest","regressionTest","sanityTest"})
 	public void beforeClass () throws Throwable
 	{
-		//File_utility flib=new File_utility();
-		//String BROWSER=flib.getKeyAndValuePair("browser");
+		File_utility flib=new File_utility();
+		String BROWSER=flib.getKeyAndValuePair("browser");
 		String BROWSER=System.getProperty("browser");
 		
 		System.out.println("Launching Browser");
