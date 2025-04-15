@@ -1,0 +1,4 @@
+#StoringData
+#Thu Mar 13 20:06:19 IST 2025
+browser=chrome
+url=http\://localhost\:8888
