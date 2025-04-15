@@ -41,7 +41,7 @@ public class BaseClass {
 	{
 		File_utility flib=new File_utility();
 		String BROWSER=flib.getKeyAndValuePair("browser");
-		String BROWSER=System.getProperty("browser");
+		//String BROWSER=System.getProperty("browser");
 		
 		System.out.println("Launching Browser");
 		
