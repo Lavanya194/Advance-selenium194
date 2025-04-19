@@ -22,7 +22,7 @@ public class BaseClass {
 	public WebDriver driver;
 	public static WebDriver sdriver;
 	
-	//pushback
+	//push1--------------
 	@BeforeSuite(groups={"smokeTest","regressionTest","sanityTest"})
 	public void beforeSuite()
 	{
